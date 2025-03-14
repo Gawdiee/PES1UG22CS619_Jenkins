@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                     sh '''
-                    g++ main/hello.cpp -o main/hello_exy
+                    g++ main/hello.cpp -o main/hello_exec
                     '''
                 }
             }
@@ -14,7 +14,7 @@ pipeline {
             steps {
                 script {
                     sh '''
-                    ./main/hello_exec
+                    ./main/hello_exy
                     '''
                 }
             }
