@@ -14,7 +14,7 @@ pipeline {
             steps {
                 script {
                     sh '''
-                    ./main/hello_exy
+                    ./main/hello_exs
                     '''
                 }
             }
